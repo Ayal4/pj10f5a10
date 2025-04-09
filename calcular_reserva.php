@@ -34,7 +34,7 @@ if ($nom && $visa && $habitacio && $persones && $nits) {
   <title>Detalls de la Reserva</title>
 </head>
 <body>
-  <h1>Detalls de la Reserva</h1>
+  <h1>Detalls de la Reserva TEST</h1>
 
   <?php if ($nom && $visa && $habitacio && $persones && $nits): ?>
     <p><strong>Nom i Cognoms:</strong> <?= htmlspecialchars($nom) ?></p>
